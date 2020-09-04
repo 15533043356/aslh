@@ -1,0 +1,228 @@
+/**
+背景颜色
+*/
+
+.html-valus {
+    background-color: rgba(238, 241, 248, 1);
+    width: 100%;
+    overflow: hidden;
+
+}
+
+body {
+    /* background-color: rgba(238, 241, 248, 1); */
+    background-color: red;
+}
+
+/**
+标题
+*/
+
+.home-div {
+    width: 700px;
+    margin-left: 45px;
+}
+
+.home-aslh {
+    width: 700px;
+    line-height: 100px;
+}
+
+.home-title {
+    padding-top: 30px;
+}
+
+.home-aslh img {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+/**
+主题内容
+ */
+
+.home-news {
+    margin-left: 45px;
+    width: 700px;
+}
+
+.lr-oneDiv {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.news-title {
+    color: rgba(11, 60, 118, 0.9);
+    margin-left: 5px;
+}
+
+.lr-oneDiv img:first-child {
+    position: relative;
+    left: 7px;
+    top: 2px;
+}
+
+.moreNews {
+    float: right;
+    color: orange;
+    cursor: pointer;
+}
+
+.moreNewsTwo {
+    float: right;
+    color: orange;
+    cursor: pointer;
+}
+
+.newsUl-one {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.newsUl-one li {
+    font-size: 13px;
+    margin-left: 30px;
+    line-height: 29px;
+}
+
+.newsUl-one li:hover {
+    color: rgba(11, 60, 118, 1);
+    background-color: rgba(11, 60, 118, 0.1);
+    border-radius: 10px;
+}
+
+.home-latestRelease, .home-iso, .home-wenjuan, .home-zhishi {
+    width: 330px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gainsboro;
+    border: 1px solid gainsboro;
+    margin-left: 15px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+/**
+左侧按钮
+*/
+
+.home-leftDiv {
+    width: 700px;
+}
+
+.home-leftBtn {
+    cursor: pointer;
+    border-radius: 10px;
+    width: 115px;
+    height: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 136, 178, 1);
+    border: none;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.home-leftBtn:hover {
+    background-color: rgba(11, 60, 118, 0.9);
+}
+
+
+/**
+个人信息
+ */
+.people div ul li {
+    list-style: none;
+}
+
+.people div ul {
+    display: inline-block;
+}
+
+.people {
+    width: 400px;
+    height: 545px;
+    border: 1px solid gainsboro;
+    box-shadow: 5px 5px 5px gainsboro;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 68px;
+}
+
+.people div ul li img {
+    cursor: pointer;
+    border: 1px solid gainsboro;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    width: 110px;
+    height: 110px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.people-page ul li:nth-child(2) {
+    margin-left: 50px;
+}
+
+.home-page ul li {
+    display: inline-block;
+    border: 1px solid gainsboro;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.home-page ul li:first-child {
+    border: 1px solid orange;
+    color: orange;
+}
+
+.home-page {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.lastPage {
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    border: none;
+    height: 22px;
+    width: 80px;
+    position: relative;
+    top: 0px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.lastPage:hover {
+    color: white;
+    background-color: rgba(11, 60, 118, 1);
+}
+
+
+/**
+底部图片
+ */
+.home-brand {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    box-shadow: 5px 5px 5px gainsboro;
+    border-radius: 10px;
+}
+
+.home-brand img {
+    width: 125px;
+    height: 70px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 25px;
+    display: inline-block;
+}

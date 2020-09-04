@@ -1,0 +1,58 @@
+/**
+背景颜色
+*/
+body{
+	background-color: rgba(238, 241, 248, 1);
+}
+
+.mo-left-menu div:first-child{
+	background-color: rgba(11, 60, 118, 0.8);
+}
+
+.mo-top-menu div:first-child, .mo-top-menu div:first-child ul{
+	background-color: rgba(238, 241, 248, 1);
+}
+
+/**
+顶部横向菜单字体颜色
+*/
+
+
+.mo-left-menu div:first-child ul li a cite{
+	color : white !important;
+	font-size:15px;
+}
+
+.inbiz-nav-more{
+	display:none;
+}
+
+/**
+搜索框
+*/
+.searchKeywords{
+	width:500px !important;
+}
+
+.searchButton{
+	background-color: rgba(11, 60, 118, 1) !important;
+	border :1px solid rgba(11, 60, 118, 1) !important;
+}
+
+/**
+主题内容
+*/
+
+#TabView20200903142247395 ,#TabView20200903104344859, #TabView20200903142249482, #TabView20200903142135916, #TabView20200903142011560{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gainsboro;
+    border: 1px solid gainsboro;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+#UnifiedSearch20200903162311419 div:first-child{
+	background-color: rgba(238, 241, 248, 1);
+}
